@@ -1,11 +1,11 @@
-number = ...  # Ваш код
+number: int = int(input('Введите четырехзначное число: '))
 
-thousands = ...  # Ваш код
-hundreds = ...  # Ваш код
-tens = ...  # Ваш код
-units = ...  # Ваш код
+thousands = number // 1000
+hundreds = (number // 100) % 10
+tens = (number // 10) % 10
+units = number % 10
 
-print(...)  # Ваш код
-print(...)  # Ваш код
-print(...)  # Ваш код
-print(...)  # Ваш код
+print('Цифра в позиции тысяч:', thousands)
+print('Цифра в позиции сотен:', hundreds)
+print('Цифра в позиции десятков:', tens)
+print('Цифра в позиции единиц:', units)

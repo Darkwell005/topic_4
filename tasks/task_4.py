@@ -1,7 +1,7 @@
-num_chicken = ...  # Ваш код
-num_cows = ...  # Ваш код
-num_pigs = ...  # Ваш код
+num_chicken: int = int(input('Введите количество курочек: '))
+num_cows: int = int(input('Введите количество коровок: '))
+num_pigs: int = int(input('Введите количество свинок: '))
 
-total_legs = ...  # Ваш код
+total_legs: int = (num_chicken * 2) + (num_cows + num_pigs) * 4
 
-print(...)  # Ваш код
+print('Общее количество ног на ферме:', total_legs)

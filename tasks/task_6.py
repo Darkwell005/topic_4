@@ -1,6 +1,6 @@
-num_1 = ...  # Ваш код
-num_2 = ...  # Ваш код
+num_1 = int(input('Введите первое положительное число: '))
+num_2 = int(input('Введите второе положительное число: '))
 
-is_divisible = ...  # Ваш код
+is_divisible = num_1 % num_2
 
-print(...)  # Ваш код
+print(is_divisible == 0)

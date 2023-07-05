@@ -1,5 +1,5 @@
-number = ...  # Ваш код
+number = int(input('Введите целое число: '))
 
-result = ...  # Ваш код
+result = '\bPython\b' * number
 
-print(...)  # Ваш код
+print(result)
